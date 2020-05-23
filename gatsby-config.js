@@ -1,8 +1,37 @@
+/* eslint-disable prettier/prettier */
+/* eslint-disable max-len */
 require('dotenv').config()
 
 const gatsbyConfig = {
   siteMetadata: {
-    title: `VetsWhoCode`,
+    title: `Wie-Care`,
+    description: `Work Initiative And Entrepreneurship`,
+    author: `Waldemar Medina`,
+    menuLinks: [
+      {
+        name: `Page 1`,
+        link: `/page-1`,
+      },
+      {
+        name: `Page 2`,
+        link: `/page-2`,
+        subMenu: [
+          {
+            name: `Sub 1`,
+            link: `/sub-1`,
+          },
+          {
+            name: `Sub 2`,
+            link: `/sub-2`,
+          },
+        ],
+      },
+      {
+        name: `Page 3`,
+        link: `/page-3`,
+      },
+      
+    ],    
   },
   plugins: [
     {
@@ -16,7 +45,7 @@ const gatsbyConfig = {
       resolve: `gatsby-plugin-gtag`,
       options: {
         // your google analytics tracking id
-        trackingId: `UA-73856435-2`,
+        trackingId: `UA-NOT-SET-YET`,
         // Puts tracking script in the head instead of the body
         head: false,
         // enable ip anonymization

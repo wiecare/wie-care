@@ -51,10 +51,11 @@ h6 {
   font-family: "Roboto Slab", serif;
 }
 .logo_holder {
+  /*
   background: #FFFFFF;
   border-radius: 50%;
   height: auto;
-  width: 45px;
+  width: 45px;*/
 }
 h1 {
   font-size: 3.75rem; /*60px*/
@@ -223,6 +224,12 @@ blockquote p {
   display: inline;
   font-size: 	1.3125rem; /*21px*/
   font-style: italic;
+}
+blockquote .bio{
+  margin-top:10px;
+  padding:20px;
+  font-size:15px;
+  display: table-row !important
 }
 .dark_color {
   color: #091F40;
@@ -566,7 +573,7 @@ h1.bold_404 {
   }
 }
 .navbar-solid {
-  background-color: #091F40;
+  background-color: rgb(59, 90, 108);
 }
 .navbar-solid .navbar-brand {
   padding: 10px 15px 5px 15px;
@@ -2124,7 +2131,7 @@ div.zabuto_calendar tr.calendar-dow td {
   margin: 0 auto;
 }
 .footer-widgets {
-  background-color: #091F40;
+  background-color: #09101A
 }
 .footer-widgets h3 {
   font-family: "Open Sans", "Sans Serif";
@@ -2228,8 +2235,8 @@ div.zabuto_calendar tr.calendar-dow td {
   background-size: cover;
 }
 .footer {
-  background-color: #091F40;
-  border-top: 1px solid #234C5B;
+  background-color: #000D15;
+  border-top: 1px solid #756111;
   color: #FFFFFF;
   padding: 40px 0;
 }

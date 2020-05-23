@@ -9,7 +9,7 @@ export const createMarker = map => {
   new window.google.maps.Map(map, mapOptions)
   const contentString = `
     <div id="content">
-      <h2>#VetsWhoCode</h2>
+      <h2>WieCare</h2>
       <div id="bodyContent">41 N Peabody st, Nashville Tn, 37120</div>
     </div>
   `
@@ -21,7 +21,7 @@ export const createMarker = map => {
   const marker = new google.maps.Marker({
     position: myLatLng,
     map,
-    title: '#VetsWhoCode',
+    title: 'WieCare',
   })
 
   marker.addListener('click', () => {

@@ -22,7 +22,7 @@ exports[`<Nav /> should render correctly 1`] = `
         <span
           class="sr-only"
         >
-          #VetsWhoCode
+          WieCare
         </span>
         <a
           aria-current="page"
@@ -33,7 +33,7 @@ exports[`<Nav /> should render correctly 1`] = `
           <div
             class="homeLink"
           >
-            VetsWhoCode
+            Work Initiative And Entrepreneurship
           </div>
         </a>
       </div>
@@ -55,7 +55,7 @@ exports[`<Nav /> should render correctly 1`] = `
         <span
           class="sr-only"
         >
-          #VetsWhoCode
+          WieCare
         </span>
       </button>
     </div>
@@ -90,7 +90,7 @@ exports[`<Nav /> should render correctly 1`] = `
             href="/about"
           >
             <span>
-              About
+              About Us
             </span>
           </a>
         </li>
@@ -99,10 +99,10 @@ exports[`<Nav /> should render correctly 1`] = `
           role="menuitem"
         >
           <a
-            href="/testimonials"
+            href="/about"
           >
             <span>
-              Testimonials
+              Get Involved
             </span>
           </a>
         </li>
@@ -111,10 +111,10 @@ exports[`<Nav /> should render correctly 1`] = `
           role="menuitem"
         >
           <a
-            href="/syllabus"
+            href="/about"
           >
             <span>
-              Syllabus
+              Programs
             </span>
           </a>
         </li>
@@ -123,10 +123,10 @@ exports[`<Nav /> should render correctly 1`] = `
           role="menuitem"
         >
           <a
-            href="/mentor"
+            href="/about"
           >
             <span>
-              Mentor
+              Proyects
             </span>
           </a>
         </li>
@@ -135,46 +135,10 @@ exports[`<Nav /> should render correctly 1`] = `
           role="menuitem"
         >
           <a
-            href="/apply"
+            href="/about"
           >
             <span>
-              Apply
-            </span>
-          </a>
-        </li>
-        <li
-          class="donate"
-          role="menuitem"
-        >
-          <a
-            href="/donate"
-          >
-            <span>
-              Donate
-            </span>
-          </a>
-        </li>
-        <li
-          class="donate"
-          role="menuitem"
-        >
-          <a
-            href="/contact"
-          >
-            <span>
-              Contact
-            </span>
-          </a>
-        </li>
-        <li
-          class="donate"
-          role="menuitem"
-        >
-          <a
-            href="/blog"
-          >
-            <span>
-              Blog
+              Events
             </span>
           </a>
         </li>

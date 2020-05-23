@@ -5,10 +5,10 @@ import Layout from '../components/Layout'
 import FluidImage from '../components/FluidImage'
 import PageHeader from '../components/PageHeader'
 
-function Donate() {
+function Projects() {
   return (
     <Layout>
-      <PageHeader title="donate" />
+      <PageHeader title="projects" />
       <section id="cause_singe" className="cause_single section bg-default single pad-regular">
         <div className="container">
           <div className="row">
@@ -139,4 +139,4 @@ function Donate() {
   )
 }
 
-export default Donate
+export default Projects

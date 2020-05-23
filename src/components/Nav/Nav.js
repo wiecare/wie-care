@@ -1,3 +1,5 @@
+/* eslint-disable max-len */
+/* eslint-disable prettier/prettier */
 import React, { useState, useRef, useEffect } from 'react'
 import Link from 'gatsby-link'
 import FluidImage from '../FluidImage'
@@ -23,8 +25,8 @@ function Nav() {
     if (winScroll > 0) {
       setOpacity(1)
     }
-  }
-
+  }   
+ 
   return (
     <nav
       ref={navRef}
@@ -43,14 +45,14 @@ function Nav() {
             itemScope=""
             itemType="https://schema.org/Organization"
           >
-            <span className="sr-only">#VetsWhoCode</span>
+            <span className="sr-only">WieCare</span>
             <Link to="/">
-              <FluidImage
-                fileName="hashflag_white.jpg"
-                alt="#VetsWhoCode Logo"
+              <FluidImage  
+                fileName="wie_logo_white.png"                
+                alt="WieCare Logo"
                 className="logo_holder"
               />
-              <div className="homeLink">VetsWhoCode</div>
+              <div className="homeLink">Work Initiative And Entrepreneurship</div>
             </Link>
           </div>
           <button
@@ -63,7 +65,7 @@ function Nav() {
             <span className="line"></span>
             <span className="line"></span>
             <span className="line"></span>
-            <span className="sr-only">#VetsWhoCode</span>
+            <span className="sr-only">WieCare</span>
           </button>
         </div>
         <div
@@ -79,45 +81,31 @@ function Nav() {
             </li>
             <li role="menuitem" className="donate">
               <Link to="/about">
-                <span>About</span>
-              </Link>
-            </li>
-            <li role="menuitem" className="donate">
-              <Link to="/testimonials">
-                <span>Testimonials</span>
-              </Link>
-            </li>
-            <li role="menuitem" className="donate">
-              <Link to="/syllabus">
-                <span>Syllabus</span>
-              </Link>
-            </li>
-            <li role="menuitem" className="donate">
-              <Link to="/mentor">
-                <span>Mentor</span>
-              </Link>
-            </li>
-            <li role="menuitem" className="donate">
-              <Link to="/apply">
-                <span>Apply</span>
+                <span>About Us</span>
               </Link>
             </li>
             <li role="menuitem" className="donate">
               <Link to="/donate">
-                <span>Donate</span>
+                <span>Get Involved</span>
               </Link>
             </li>
             <li role="menuitem" className="donate">
-              <Link to="/contact">
-                <span>Contact</span>
+              <Link to="/programs">
+                <span>Programs</span>
+              </Link>
+            </li> 
+            <li role="menuitem" className="donate">
+              <Link to="/projects">
+                <span>Proyects</span>
               </Link>
             </li>
             <li role="menuitem" className="donate">
-              <Link to="/blog">
-                <span>Blog</span>
+              <Link to="/events">
+                <span>Events</span>
               </Link>
             </li>
           </ul>
+
         </div>
       </div>
     </nav>

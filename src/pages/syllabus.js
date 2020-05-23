@@ -44,7 +44,7 @@ export default class Mentor extends Component {
             <div className="row">
               <div className="col-md-12">
                 <div className="faq-short-brief">
-                  <h2>#VetsWhoCode Syllabus</h2>
+                  <h2>WieCare Syllabus</h2>
                   <p>
                     Our curriculum is designed using the Agile Methodology with four-day sprints
                     dedicated to the subject. We do it in this manner based on the practice of how

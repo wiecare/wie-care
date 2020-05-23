@@ -82,10 +82,10 @@ function IndexPage() {
             </div>
             <div className="col-md-7 col-sm-12 our_story_content text-center">
               <div className="featured-heading">
-                <h2>#VetsWhoCode</h2>
+                <h2>WieCare</h2>
               </div>
               <p>
-                #VetsWhoCode is a veteran-led and operated 501(c)(3) charitable non-profit that
+                WieCare is a veteran-led and operated 501(c)(3) charitable non-profit that
                 focuses on training veterans in web development and software engineering principles
                 free of charge with the focus of starting careers as javascript developers.
               </p>
@@ -121,7 +121,7 @@ function IndexPage() {
             <div className="col-sm-6 event_content">
               <h4>Next Cohort</h4>
               <div className="event_excerpt">
-                <p>Countdown until our next #VetsWhoCode Cohort gets started:</p>
+                <p>Countdown until our next WieCare Cohort gets started:</p>
               </div>
             </div>
             <div className="col-sm-6 event_counter_container text-center">
@@ -160,7 +160,7 @@ function IndexPage() {
           </div>
           <div className="row">
             <div className="col-sm-12 cause_content text-center" style={{ marginBottom: 40 }}>
-              <h4 className="cause_title">Thank You For Working With #VetsWhoCode!</h4>
+              <h4 className="cause_title">Thank You For Working With WieCare!</h4>
               <hr />
               <h3 className="subtitle">
                 We Are Grateful To Have These Companies Partner With Us On Our Journey To Train

@@ -45,7 +45,7 @@ function Testimonial() {
                   />
                   <blockquote className="testimonial-text">
                     <p>
-                      &quot;#VetsWhoCode on paper is a web development boot camp. In my opinion it
+                      &quot;WieCare on paper is a web development boot camp. In my opinion it
                       is the best transition assistance program out there. I am so grateful for the
                       access to a new life the boot camp gave me.&quot;
                       <br /> - Schuster Braun, US Navy | Front End Engineer, Amazon Web Services
@@ -115,10 +115,10 @@ function Testimonial() {
                   />
                   <blockquote className="testimonial-text">
                     <p>
-                      &quot;#VetsWhoCode's tenacious focus on language and computer science
+                      &quot;WieCare's tenacious focus on language and computer science
                       fundamentals over frameworks was invaluable in my career transition from being
                       a Radiology Technician in the US Army to building cloud scale infrastructure
-                      at Microsoft. The coaching from the #VetsWhoCode’s talented and passionate
+                      at Microsoft. The coaching from the WieCare’s talented and passionate
                       mentor network proved to be a priceless asset even after graduating. Come
                       ready to learn and you will succeed here.&quot;
                       <br /> - Jeff Martin, US Army | DevOps Engineer, Microsoft/Github

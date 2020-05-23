@@ -6,7 +6,7 @@ import Typed from 'react-typed'
 function Header() {
   const data = useStaticQuery(graphql`
     query {
-      codeImage: file(relativePath: { eq: "code.jpg" }) {
+      codeImage: file(relativePath: { eq: "slide4.jpg" }) {
         childImageSharp {
           fluid(quality: 90, maxWidth: 1000) {
             ...GatsbyImageSharpFluid_withWebp

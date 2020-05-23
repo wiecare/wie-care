@@ -19,9 +19,9 @@ function Footer() {
           <div className="row">
             <div className="col-md-4">
               <div className="widgets-content footer-widget-wrap">
-                <h3 className="widgets-title">About #VetsWhoCode</h3>
+                <h3 className="widgets-title">About WieCare</h3>
                 <p>
-                  FRAGO, doing business as #VetsWhoCode, is an exempt organization as described in
+                  FRAGO, doing business as WieCare, is an exempt organization as described in
                   Section 501(c)(3) of the Internal Revenue Code. Our EIN is 47-3555231.
                 </p>
                 <div className="footer-social">
@@ -131,7 +131,7 @@ function Footer() {
             <div className="col-md-6 col-sm-6">
               <p className="copyright">
                 <FaRegCopyright color="#fff" />
-                #VetsWhoCode
+                WieCare
               </p>
             </div>
             <div className="col-md-6 col-sm-6">
@@ -141,7 +141,7 @@ function Footer() {
                   <span className="fa fa-heart red">
                     <FaHeart color="red" />
                   </span>{' '}
-                  By #VetsWhoCode.
+                  By WieCare.
                 </li>
               </ul>
             </div>

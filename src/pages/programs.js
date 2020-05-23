@@ -5,22 +5,23 @@ import Layout from '../components/Layout'
 import FluidImage from '../components/FluidImage'
 import PageHeader from '../components/PageHeader'
 
-function Donate() {
+function Programs() {
   return (
     <Layout>
-      <PageHeader title="donate" />
+      <PageHeader title="Our Programs" />
       <section id="cause_singe" className="cause_single section bg-default single pad-regular">
         <div className="container">
           <div className="row">
             <div className="col-md-12">
-              <h4 className="cause_title">Get Involved</h4>
+              <h4 className="cause_title">Skill and Technical Training (STT) Program</h4>
               <br />
               <div className="cause_section_content">
                 <p>
-                  W.I.E. operates on the volunteer, goodwill and philanthropic contributions from organizations and 
-                  people like you. Your volunteering and donations help us provide structured and long-term 
-                  individualized help to in-need and at-risk youth and young adults by offering them opportunities 
-                  for success and positive life-changing experiences.
+                  This program is for in-need or at-risk youth and young adults to improve their academic status 
+                  and credentials, and their job market disadvantages, and career sustainability. The target population 
+                  for this program is youth and young adults ages 14 – 30 years with at least two years post high school 
+                  degree (post-secondary school degree) (Target #1); with at least high school (secondary school) education 
+                  degree (Target #2); with less than high school (secondary school) education (Target #3).
                 </p>
               </div>
             </div>
@@ -29,14 +30,17 @@ function Donate() {
         <div className="container">
           <div className="row">
             <div className="col-md-12">
-              <h4 className="cause_title">Become a volunteer</h4>
+              <h4 className="cause_title">Entrepreneurship Sponsorship and Investment (ESI) Program</h4>
               <br />
               <div className="cause_section_content">
                 <p>
-                  Join the “WIE.CARE VOLUNTEER TEAM” to make a sustained and significant impact in the life of in-need 
-                  r at-risk youth. You can volunteer as A COACH, A MENTOR, A COUNSELOR, AN EVENT SUPPORTER, LIFE-TIME S
-                  UPPORTER, etc. What you do for A Youth, you do for the Community and Society at large.
-                </p>
+                  This program is a micro to small scale entrepreneurship sponsorship and financial investment program for 
+                  trained or skilled workers or business owners. The target population for the ESI program is young adults 
+                  ages 18 – 45 years who are: trained or skilled workers or business owners in need of capital investment and 
+                  support to grow and diversify their business and product (Target #1); skilled or non-skilled recent 10 years
+                  or less university undergraduate degree holders between the ages of 21 – 40 who want to be entrepreneurs (Target #2); 
+                  trained or skilled youth and young adults ages 14 – 30 who need specialized training and/or capital 
+                  investment and support to grow and diversify their skills or product (Target #3).                </p>
               </div>
             </div>
           </div>
@@ -44,13 +48,15 @@ function Donate() {
         <div className="container">
           <div className="row">
             <div className="col-md-12">
-              <h4 className="cause_title">Donate your birthday!</h4>
+              <h4 className="cause_title">Social Competence Skills Training (SCST) Program</h4>
               <br />
               <div className="cause_section_content">
                 <p>
-                  This year, do something great with your birthday. Give Back and Rally your Friends to give back by making a difference 
-                  in the lives of in-need and at-risk youth. Start your next year of life with a sense of JOY that you’re helping 
-                  change the Life of a youth for the Better. 
+                  This is a Counseling and Mentorship access program for all STT and ESI 
+                  program beneficiaries. The goal is to keep participants consistently focused and to help them 
+                  better manage their personal challenges, acquire necessary social, moral and self-competence skills 
+                  to complement their academic and technical training, and to promote their work effectiveness 
+                  and social responsibility.
                 </p>
               </div>
             </div>
@@ -60,13 +66,13 @@ function Donate() {
         <div className="container">
           <div className="row">
             <div className="col-md-12">
-              <h4 className="cause_title">Donate for an anniversary or REMEMBRANCE!</h4>
+              <h4 className="cause_title">WORK INITIATIVE PARTNERSHIP AND INVESTMENT (WIPI) PROGRAM:</h4>
               <br />
               <div className="cause_section_content">
                 <p>
-                  Donate to commemorate an important anniversary in your life or your family’s life.  Your special anniversary donation 
-                  is a wonderful way of extending and honoring important memories and significant lives in your family. Your Anniversary 
-                  donations will be accorded special recognition it requires in our organization. 
+                This is a micro to macro scale Work Initiative Partnership and Investment (WIPI) programs with local
+                 and/or international institutions, organizations and government agencies to promote and create job 
+                 opportunities in impoverished communities and for economically disadvantaged groups. 
                 </p>
               </div>
             </div>
@@ -139,4 +145,5 @@ function Donate() {
   )
 }
 
-export default Donate
+
+export default Programs
