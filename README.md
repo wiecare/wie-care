@@ -1,15 +1,3 @@
-<p align=center>
-  <img src=https://img.shields.io/badge/node-v8.9.4-brightgreen.svg?style=flat-square alt="node" />
-  <img src=https://img.shields.io/badge/npm-v5.6.0-blue.svg?style=flat-square alt="npm" />
-  <a href=https://github.com/wiecare/wie-care/blob/master/LICENSE>
-    <img src=https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square alt="License: MIT" />
-  </a>
-  <a href=https://github.com/wiecare/wie-care/blob/master/.github/contributing.md>
-    <img src=https://img.shields.io/badge/contributions-welcome-orange.svg?style=flat-square alt="Contributions Welcome" />
-  </a>
-  <img src=https://img.shields.io/netlify/bca54b7a-886c-4816-b7dc-1045c7e0abc4?style=flat-square alt="Deployment Status">
-</p>
-
 # Work Intitiative and Entrepenuership Web App Code
 
 
